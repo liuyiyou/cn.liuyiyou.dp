@@ -3,7 +3,7 @@
  * File Name:VideoPlayer.java 
  * Package Name:cn.liuyiyou.dp.structural.adapter 
  * Date:2017年7月25日下午2:21:56 
- * Copyright (c) 2017, www.daojia.com All Rights Reserved. 
+ * Copyright (c) 2017, liuyiyou.cn All Rights Reserved.
  * 
  */ 
 package cn.liuyiyou.dp.structural.adapter;

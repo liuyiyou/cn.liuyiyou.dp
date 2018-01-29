@@ -3,7 +3,7 @@
  * File Name:WindowBuilder.java 
  * Package Name:cn.liuyiyou.dp.creational 
  * Date:2017年7月25日下午2:14:33 
- * Copyright (c) 2017, www.daojia.com All Rights Reserved. 
+ * Copyright (c) 2017, liuyiyou.cn All Rights Reserved.
  * 
  */
 package cn.liuyiyou.dp.creational.builder;
