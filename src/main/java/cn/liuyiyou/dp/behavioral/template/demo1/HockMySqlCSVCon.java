@@ -1,11 +1,10 @@
-package cn.liuyiyou.dp.behavioral;
+package cn.liuyiyou.dp.behavioral.template.demo1;
 
 /***
  * @author: liuyiyou
  * @date: 2018/1/24
  */
-public class MySqLCSVCon extends ConnectionTemplate {
-
+public class HockMySqlCSVCon extends HockConnectionTemplate {
     @Override
     public void setDBDriver() {
         System.out.println("Setting MySQL DB drivers...");
@@ -19,5 +18,10 @@ public class MySqLCSVCon extends ConnectionTemplate {
     @Override
     public void setData() {
         System.out.println("Setting up data from csv file....");
+    }
+
+    @Override
+    public boolean disableLogging() {
+        return false;
     }
 }

@@ -1,4 +1,4 @@
-package cn.liuyiyou.dp.behavioral;
+package cn.liuyiyou.dp.behavioral.template.demo1;
 
 import java.util.Date;
 

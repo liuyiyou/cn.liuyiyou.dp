@@ -1,10 +1,10 @@
-package cn.liuyiyou.dp.behavioral;
+package cn.liuyiyou.dp.behavioral.template.demo1;
 
 /***
  * @author: liuyiyou
  * @date: 2018/1/24
  */
-public class HockOracleTxtCon extends HockConnectionTemplate {
+public class OracleTxtCon extends ConnectionTemplate {
 
     @Override
     public void setDBDriver() {
