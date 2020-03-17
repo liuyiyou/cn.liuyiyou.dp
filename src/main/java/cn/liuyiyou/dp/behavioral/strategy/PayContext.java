@@ -1,4 +1,4 @@
-package cn.liuyiyou.dp.structural.strategy;
+package cn.liuyiyou.dp.behavioral.strategy;
 
 import java.util.List;
 import java.util.Map;

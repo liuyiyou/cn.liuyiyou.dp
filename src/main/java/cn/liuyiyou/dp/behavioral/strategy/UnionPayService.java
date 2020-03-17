@@ -1,4 +1,4 @@
-package cn.liuyiyou.dp.structural.strategy;
+package cn.liuyiyou.dp.behavioral.strategy;
 
 import cn.liuyiyou.dp.behavioral.template.AbstractPayService;
 import org.springframework.stereotype.Service;
@@ -9,15 +9,15 @@ import org.springframework.stereotype.Service;
  * @version: V1.0
  */
 @Service
-public class AlipayService extends AbstractPayService implements PayService {
+public class UnionPayService  extends AbstractPayService implements PayService {
 
   @Override
   public boolean support(int payType) {
-    return payType == PayType.ALIPAY.getCode();
+    return payType == PayType.UNIONPAY.getCode();
   }
 
   @Override
   public String pay() {
-    return "支付宝支付";
+    return "银联支付";
   }
 }

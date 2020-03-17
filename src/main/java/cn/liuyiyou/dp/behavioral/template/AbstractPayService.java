@@ -1,6 +1,6 @@
 package cn.liuyiyou.dp.behavioral.template;
 
-import cn.liuyiyou.dp.structural.strategy.PayService;
+import cn.liuyiyou.dp.behavioral.strategy.PayService;
 import lombok.extern.slf4j.Slf4j;
 
 /**

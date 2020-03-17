@@ -1,4 +1,4 @@
-package cn.liuyiyou.dp.structural.strategy;
+package cn.liuyiyou.dp.behavioral.strategy;
 
 import cn.liuyiyou.dp.behavioral.template.AbstractPayService;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package cn.liuyiyou.dp.structural.strategy;
+package cn.liuyiyou.dp.behavioral.strategy;
 
 /**
  * @author: liuyiyou.cn

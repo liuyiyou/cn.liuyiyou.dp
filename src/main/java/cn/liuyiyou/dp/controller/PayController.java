@@ -1,7 +1,7 @@
 package cn.liuyiyou.dp.controller;
 
-import cn.liuyiyou.dp.structural.strategy.PayContext;
-import cn.liuyiyou.dp.structural.strategy.PayFactory;
+import cn.liuyiyou.dp.behavioral.strategy.PayContext;
+import cn.liuyiyou.dp.behavioral.strategy.PayFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
